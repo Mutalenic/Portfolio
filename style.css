@@ -1,4 +1,7 @@
-.topnav {
+.body{
+  background-color: #E5E5E5;
+}
+.topnav a {
   position: static;
   width: 53px;
   height: 20px;
