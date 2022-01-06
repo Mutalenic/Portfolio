@@ -31,9 +31,9 @@
   color: #fff;
   /* Inside Auto Layout */
   /* flex: none; */
-  /* order: 0;
+  order: 0;
   flex-grow: 0;
-  margin: 0 10px; */
+  margin-right:auto;
 }
 .bars {
   font-size: 25px;
