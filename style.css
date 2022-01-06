@@ -25,15 +25,35 @@ nav ul {
   line-height: 20px;
   /* identical to box height, or 133% */
   display: flex;
-  justify-content: flex-end;
+  /* /justify-content: center; */
+  text-justify: 1em;
   align-items: center;
   text-align: center;  
   color: #fff;
+  justify-content: flex-end;
+  padding-left: 1 em;
+  
+  /* padding: 1em; */
   /* Inside Auto Layout */
   /* flex: none; */
-  order: 0;
-  flex-grow: 0;
-  margin-right:auto;
+  /* order: 0;
+  flex-grow: 0; */
+  /* margin-right:auto; */
+}
+
+#contact {
+  padding: 0.1em;
+}
+
+#folio {
+  padding: 1em;
+}
+
+#about {
+  padding: 1em;
+}
+#img {
+  padding: 1em;
 }
 .bars {
   font-size: 25px;
