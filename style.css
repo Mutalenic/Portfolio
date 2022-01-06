@@ -4,9 +4,10 @@
   margin: 0;
 }
 
-.body1{
-  background-color: #E5E5E5;
+.body1 {
+  background-color: #e5e5e5;
 }
+
 .topnav a {
   position: static;
   width: 53px;
@@ -22,7 +23,9 @@
 
   /* identical to box height, or 133% */
   display: block;
+
   /* align-items: center; */
+
   /* text-align: center; */
   color: #fff;
 
@@ -49,6 +52,7 @@
   font-size: 25px;
   color: #fff;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
