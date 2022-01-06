@@ -40,6 +40,9 @@ nav ul {
   flex-grow: 0; */
   /* margin-right:auto; */
 }
+nav li {
+  display: inline-block;
+}
 
 #contact {
   padding: 0.1em;
