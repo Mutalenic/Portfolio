@@ -40,13 +40,14 @@ nav ul {
   flex-grow: 0; */
   /* margin-right:auto; */
 }
-/* /* .bg-image {
+.k-image {
+  display: flex;
   background-image: url(./Top-circles.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-color: #3d36fa;
+  background-position: right;
+  /* background-color: #3d36fa; */
   height: 500px;
-} */
+} 
 .bars {
   font-size: 25px;
   color: #fff;
