@@ -1,61 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  background-color: #191765;
-
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
 }
-/* body{
-  
-} */
-/* .body1 {
-  background-color: #e5e5e5;
-} */
 
-nav ul {
-  /* position: right;
-  width: 53px;
-  height: 20px;
-  left: 12px;
-  top: 10px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  /* identical to box height, or 133% */
-  display: flex;
-  /* /justify-content: center; */
-  text-justify: 1em;
-  align-items: center;
-  text-align: center;  
-  color: #fff;
-  justify-content: flex-end;
-  padding-left: 1 em;
-  
-  /* padding: 1em; */
-  /* Inside Auto Layout */
-  /* flex: none; */
-  /* order: 0;
-  flex-grow: 0; */
-  /* margin-right:auto; */
+.logo {
+  text-decoration: none;
 }
-.k-image {
-  display: flex;
+
+.header {
   background-image: url(./Top-circles.png);
   background-repeat: no-repeat;
-  background-position: right;
-  /* background-color: #3d36fa; */
-  height: 500px;
-} 
+  background-color: #191765;
+  height: 100%;
+  padding: 0 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav a {
+  color: #fff;
+}
+
+.header h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 72px;
+  color: #7d73fc;
+  padding: 63px 0;
+}
+
+.header h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #edecff;
+  padding-bottom: 40px;
+}
+
+.header p {
+  width: 327px;
+  height: 170px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #c8c8d4;
+  text-align: center;
+  padding: 1px 38px;
+  margin-bottom: 55px;
+}
+
 .bars {
   font-size: 25px;
   color: #fff;
-} 
+}
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
- }
+  background-color: #191765;
+  margin-top: 0;
+}
+
+.line {
+  color: #646369;
+  height: 1px;
+  width: 109%;
+  margin-top: 12%;
+}
+
+.common-li {
+  color: #f5f5ff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 19px;
+}
+
+.blue1 {
+  color: #9490ff;
+  padding-bottom: 24.5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.software {
+  display: flex;
+  margin-top: 75px;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  gap: 39px;
+}
+
+.icons {
+  margin-bottom: 70px;
+  margin-top: 58px;
+  display: flex;
+  gap: 15px;
+}
