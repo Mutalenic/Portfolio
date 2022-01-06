@@ -2,7 +2,7 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  background-color: #65173e;
+  background-color: #191765;
 
 }
 /* body{
@@ -39,6 +39,16 @@ nav ul {
   /* order: 0;
   flex-grow: 0; */
   /* margin-right:auto; */
+}
+nav :first-of-type {
+  float: left;
+}
+nav :first-of-type {
+  float: right;
+}
+nav :first-of-type ul {
+  float: right;
+  padding-left: 0;
 }
 nav li {
   display: inline-block;
