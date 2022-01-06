@@ -6,9 +6,9 @@
 body{
   background-color: #191765;
 }
-.body1 {
+/* .body1 {
   background-color: #e5e5e5;
-}
+} */
 
 .topnav a {
   position: static;
@@ -21,16 +21,11 @@ body{
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-
-
   /* identical to box height, or 133% */
-  display: block;
-
-  /* align-items: center; */
-
-  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  text-align: center;
   color: #fff;
-
   /* Inside Auto Layout */
   flex: none;
   order: 0;
