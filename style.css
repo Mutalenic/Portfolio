@@ -35,15 +35,6 @@
   flex-grow: 0;
   margin: 0 10px;
 }
-
-.kt-image {
-  background-image: url(./Top-circles.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #3d36fa;
-  height: 500px;
-}
-
 .topnav {
   display: none;
 }
