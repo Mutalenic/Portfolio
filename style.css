@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .body1{
   background-color: #E5E5E5;
 }
@@ -13,10 +19,11 @@
   font-size: 15px;
   line-height: 20px;
 
+
   /* identical to box height, or 133% */
-  display: flex;
-  align-items: center;
-  text-align: center;
+  display: block;
+  /* align-items: center; */
+  /* text-align: center; */
   color: #fff;
 
   /* Inside Auto Layout */
@@ -24,4 +31,28 @@
   order: 0;
   flex-grow: 0;
   margin: 0 10px;
+}
+
+.kt-image {
+  background-image: url(./Top-circles.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #3d36fa;
+  height: 500px;
+}
+
+.topnav {
+  display: none;
+}
+
+.bars {
+  font-size: 25px;
+  color: #fff;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #3d36fa;
 }
