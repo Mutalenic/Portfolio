@@ -2,10 +2,12 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-}
-body{
   background-color: #191765;
+
 }
+/* body{
+  
+} */
 /* .body1 {
   background-color: #e5e5e5;
 } */
@@ -28,10 +30,10 @@ body{
   justify-content: flex-end;
   color: #fff;
   /* Inside Auto Layout */
-  flex: none;
-  order: 0;
+  /* flex: none; */
+  /* order: 0;
   flex-grow: 0;
-  margin: 0 10px;
+  margin: 0 10px; */
 }
 .bars {
   font-size: 25px;
