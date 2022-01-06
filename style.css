@@ -25,6 +25,7 @@ body{
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: space-between;
   color: #fff;
   /* Inside Auto Layout */
   flex: none;
