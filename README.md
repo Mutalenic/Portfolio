@@ -10,13 +10,11 @@ This portfolio shows what I am capable of doing as a software developer.With thi
 - HTML
 - CSS
 
-
 ## Authors
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@githubhandle](https://github.com/Mutalenic)
+- Twitter: [@nicomutale](https://twitter.com/nicomutale)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicholas-mutale-715714124/
 
 ## 🤝 Contributing
 
