@@ -35,10 +35,6 @@
   flex-grow: 0;
   margin: 0 10px;
 }
-.topnav {
-  display: none;
-}
-
 .bars {
   font-size: 25px;
   color: #fff;
@@ -49,5 +45,4 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: #3d36fa;
-}
+ }
