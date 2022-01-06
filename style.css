@@ -40,33 +40,15 @@ nav ul {
   flex-grow: 0; */
   /* margin-right:auto; */
 }
-nav :first-of-type {
-  float: left;
-}
-nav :first-of-type {
-  float: right;
-}
-nav :first-of-type ul {
-  float: right;
-  padding-left: 0;
+.bg-image {
+  background-image: url(./Top-circles.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #3d36fa;
+  height: 500px;
 }
 nav li {
   display: inline-block;
-}
-
-#contact {
-  padding: 0.1em;
-}
-
-#folio {
-  padding: 1em;
-}
-
-#about {
-  padding: 1em;
-}
-#img {
-  padding: 1em;
 }
 .bars {
   font-size: 25px;
