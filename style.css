@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 * {
   padding: 0;
@@ -13,7 +13,7 @@
 }
 
 .header {
-  background-image: url(./Top-circles.png);
+  background-image: url(./Top-circles.png) ;
   background-repeat: no-repeat;
   background-color: #191765;
   height: 100%;
@@ -28,20 +28,33 @@
 }
 
 .header h1 {
+  position: static;
+width: 327px;
+height: 55px;
+left: 0px;
+top: 0px;
   font-style: normal;
-  font-weight: bold;
-  font-size: 35px;
+  font-weight: 700;
+  font-size: 48px;
   line-height: 72px;
+  letter-spacing: 0.37px;
   color: #7d73fc;
-  padding: 63px 0;
+  padding: 63px 0; 
+  
 }
 
 .header h2 {
+  position: static;
+width: 327px;
+height: 87px;
+left: 0px;
+top: 67px;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   color: #edecff;
+  text-align: center;
   padding-bottom: 40px;
 }
 
@@ -49,7 +62,7 @@
   width: 327px;
   height: 170px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #c8c8d4;
