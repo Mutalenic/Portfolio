@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 * {
-  padding: 0;
   box-sizing: border-box;
   margin: 0;
   list-style: none;
@@ -39,7 +38,7 @@ top: 0px;
   line-height: 72px;
   letter-spacing: 0.37px;
   color: #7d73fc;
-  padding: 63px 0; 
+  padding: 100px 24px 148px 41px;
   
 }
 
@@ -55,7 +54,6 @@ top: 67px;
   line-height: 44px;
   color: #edecff;
   text-align: center;
-  padding-bottom: 40px;
 }
 
 .header p {
