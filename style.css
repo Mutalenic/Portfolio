@@ -35,3 +35,21 @@ top: calc(50% - 0px/2 + 0.5px);
 
 border: 1px solid #646369;
 }
+.image1 {
+background: linear-gradient(0deg, #F9F9F9, #F9F9F9),;
+position: static;
+width: 327px;
+height: 236px;
+left: 0px;
+top: 0px;
+}
+.header {
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.section1 h2 {
+    display: flex;
+    
+} 
+
