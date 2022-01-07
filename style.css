@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 .header {
     background-color: #191765;
     background-image:url(./mobile.png) ;
@@ -10,8 +11,8 @@ top: 1601.21728515625px;
 border-radius: 0px;
 }
 .header h1 {
-    color: #9490FF;
-    position: static;
+color: #9490FF;
+position: static;
 width: 327px;
 height: 104px;
 left: 24px;
@@ -24,4 +25,13 @@ font-size: 40px;
 line-height: 52px;
 display: flex;
 align-items: center
+}
+.header hr {
+    /* position: absolute; */
+height: 0px;
+left: 0px;
+right: 0px;
+top: calc(50% - 0px/2 + 0.5px);
+
+border: 1px solid #646369;
 }
