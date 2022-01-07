@@ -12,7 +12,7 @@
 }
 
 .header {
-  background-image: url(./Top-circles.png) ;
+  background-image: url(./Top-circles.png);
   background-repeat: no-repeat;
   background-color: #191765;
   height: 100%;
@@ -28,10 +28,11 @@
 
 .header h1 {
   position: static;
-width: 327px;
-height: 55px;
-left: 0px;
-top: 0px;
+  width: 327px;
+  height: 55px;
+
+  /* left: 0px; */
+  top: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -39,15 +40,15 @@ top: 0px;
   letter-spacing: 0.37px;
   color: #7d73fc;
   padding: 100px 24px 148px 41px;
-  
 }
 
 .header h2 {
   position: static;
-width: 327px;
-height: 87px;
-left: 0px;
-top: 67px;
+  width: 327px;
+  height: 87px;
+
+  /* left: 0px; */
+  top: 67px;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
