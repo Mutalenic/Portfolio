@@ -8,5 +8,20 @@ width: 734.4419555664062px;
 left: -112.0361328125px;
 top: 1601.21728515625px;
 border-radius: 0px;
+}
+.header h1 {
+    color: #9490FF;
+    position: static;
+width: 327px;
+height: 104px;
+left: 24px;
+top: 0px;
 
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center
 }
