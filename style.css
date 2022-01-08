@@ -48,8 +48,11 @@ top: 0px;
     grid-template-columns: auto;
 
 }
-.section1 h2 {
+.section1 {
     display: flex;
+}
+.section1 p {
+    flex-wrap: wrap;
     
 } 
 
