@@ -62,4 +62,8 @@ left: 0px;
 top: 129px;
 padding: 0 12px 0 12px;    
 } 
+.section1 .lang {
+    flex-direction: row;
+}
+.section1 .lang .button
 
