@@ -213,3 +213,21 @@ body {
   letter-spacing: 0.03em;
   margin-top: 24px;
 }
+
+span {
+  color: #a2a3ae;
+  font-size: 20px;
+}
+
+.button:hover {
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.button:active {
+  background: #5e42d7;
+}
+
+.button:disabled {
+  background: #2a2b33;
+}
