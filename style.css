@@ -70,7 +70,7 @@ body {
     margin-bottom: 55px;
   }
   
-  .bars {
+  .nav i {
     font-size: 25px;
     color: #fff;
   }
@@ -112,7 +112,7 @@ body {
     margin-top: 75px;
     flex-wrap: wrap;
     padding-left: 10px;
-    gap: 39px;
+    gap: 15px;
   }
   
   .icons {
@@ -120,6 +120,10 @@ body {
     margin-top: 58px;
     display: flex;
     gap: 15px;
+  }
+
+  .icons a{
+      color: #fff;
   }
 
 .header {
@@ -213,4 +217,3 @@ text-align: center;
 letter-spacing: 0.03em;
 margin-top: 24px;
 }
-
