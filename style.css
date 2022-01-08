@@ -62,8 +62,38 @@ left: 0px;
 top: 129px;
 padding: 0 12px 0 12px;    
 } 
-.section1 .lang {
+.section1 .lang-sec .lang {
+    display: flex;
+    list-style-type: none;
     flex-direction: row;
+    padding: 12px;
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+align-items: center;
 }
-.section1 .lang .button
+.section1 .lang-sec .lang img {
+    width: 1px;
+height: 40px;
+left: 57px;
+top: 0px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 8px;
+}
+
+.button {
+    background: #7D73FC;
+    width: 89px;
+    height: 48px;
+    left: 0px;
+    top: 421px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer
+}
 
