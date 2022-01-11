@@ -251,12 +251,12 @@ span {
   justify-content: center;
 }
 
-.text {
+.contact-text {
   display: flex;
   justify-content: center;
   text-align: center;
   color: #f5f5ff;
-  font-family:" Inter", sans-serif;
+  font-family: " Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -264,7 +264,7 @@ span {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 24px 0px;
+  margin: 24px 0;
 }
 
 .conct-form {
@@ -287,9 +287,9 @@ span {
 #usermessage {
   height: 148px;
   width: 327px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
 }
 
 .line1 {
@@ -306,5 +306,5 @@ span {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
 }
