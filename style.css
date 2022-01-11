@@ -115,10 +115,11 @@ body {
 }
 
 .icons {
-  margin-bottom: 70px;
-  margin-top: 58px;
+  margin-bottom: 20px;
+  margin-top: 28px;
   display: flex;
   gap: 15px;
+  justify-content: center;
 }
 
 .icons a {
@@ -230,4 +231,80 @@ span {
 
 .button:disabled {
   background: #2a2b33;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin: 20px;
+}
+
+.contact {
+  color: #9390ff;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #f5f5ff;
+  font-family:" Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.conct-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+}
+
+#username {
+  width: 327px;
+  height: 48px;
+}
+
+#useremail {
+  width: 327px;
+  height: 48px;
+}
+
+#usermessage {
+  height: 148px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.line1 {
+  width: 100%;
+}
+
+.mail-to {
+  display: flex;
+  justify-content: center;
+  height: 29px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
 }

@@ -17,6 +17,7 @@ This portfolio shows what I am capable of doing as a software developer.With thi
 - LinkedIn: [LinkedIn: nicholasmutale](https://www.linkedin.com/in/nicholas-mutale-715714124/)
 
 ## 🤝 Contributing
+- GitHub: [@Thermiee](https://github.com/Thermiee)
 
 Contributions, issues, and feature requests are welcome!
 
