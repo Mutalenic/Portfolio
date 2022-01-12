@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 body {
   background-color: #191765;
@@ -86,7 +87,7 @@ body {
 .line {
   color: #646369;
   height: 1px;
-  width: 109%;
+  width: 375px;
   margin-top: 12%;
 }
 
@@ -115,10 +116,11 @@ body {
 }
 
 .icons {
-  margin-bottom: 70px;
-  margin-top: 58px;
+  margin-bottom: 20px;
+  margin-top: 28px;
   display: flex;
   gap: 15px;
+  justify-content: center;
 }
 
 .icons a {
@@ -230,4 +232,118 @@ span {
 
 .button:disabled {
   background: #2a2b33;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  color: #9390ff;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  justify-content: center;
+  text-align: center;
+  width: 327px;
+}
+
+.contact-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #f5f5ff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  width: 327px;
+}
+
+.conct-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+}
+
+#username {
+  width: 327px;
+  height: 48px;
+  padding-left: 10px;
+  left: 16px;
+  right: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #81818c;
+}
+
+#useremail {
+  width: 327px;
+  left: 16px;
+  right: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #191765;
+  padding-left: 10px;
+}
+
+#usermessage {
+  height: 148px;
+  width: 327px;
+  border-radius: 0;
+  padding: 12px;
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #81818c;
+}
+
+.line1 {
+  width: 375px;
+  background: #3a3837;
+  height: 1px;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.mail-to {
+  display: flex;
+  justify-content: center;
+  height: 29px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
 }
