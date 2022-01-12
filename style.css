@@ -86,7 +86,7 @@ body {
 .line {
   color: #646369;
   height: 1px;
-  width: 109%;
+  width: 375px;
   margin-top: 12%;
 }
 
@@ -236,10 +236,7 @@ span {
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 25px;
-  margin: 20px;
 }
 
 .contact {
@@ -247,8 +244,9 @@ span {
   font-weight: 500;
   font-style: normal;
   font-size: 32px;
-  display: flex;
   justify-content: center;
+  text-align: center;
+  width: 327px;
 }
 
 .contact-text {
@@ -264,7 +262,7 @@ span {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 24px 0;
+  width: 327px;
 }
 
 .conct-form {
@@ -290,10 +288,16 @@ span {
   left: 0;
   top: 0;
   border-radius: 0;
+  padding: 12px;
 }
 
 .line1 {
-  width: 100%;
+  width: 375px;
+  background: #3a3837;
+  height: 1px;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .mail-to {
@@ -307,4 +311,9 @@ span {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
 }
