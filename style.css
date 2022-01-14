@@ -295,8 +295,8 @@ body {
   line-height: 24px;
   flex: none;
   order: 1;
-  flex-grow: 0;
   width: 327px;
+  padding-bottom: 40px;
 }
 
 .conct-form {
