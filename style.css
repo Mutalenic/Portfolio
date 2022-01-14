@@ -129,8 +129,8 @@ body {
   display: flex;
   margin-top: 75px;
   flex-wrap: wrap;
-  padding-left: 10px;
-  gap: 15px;
+  padding-left: 20px;
+  gap: 40px;
 }
 
 .icons {
