@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
@@ -17,16 +17,28 @@
   <title>My Recent Work</title>
 </head>
 
-<body>
-  <header class="nav">
+<body class="body">
+    <header class="nav">
     <a class="logo" href="#">Nicholas</a>
-    <nav>
+    <nav class="nav-buttons">
+      <ul class="nav-li">
+      <li><a>Portfolio</a></li>
+      <li><a>Contact</a></li>
+      <li><a>About</a></li>
+      <li>
+        <i class="far fa-envelope"></i>
+      </li>
+       </ul>      
+      
+      </nav>
+      <div class="bars">     
       <i class="fas fa-bars bars"></i>
-    </nav>
+      </div>
+    
   </header>
   <section class="headers">
-    <h1>Nicholas Mutale</h1>
-    <h2>Software Developer</h2>
+    <h1 >Nicholas Mutale</h1>
+    <h2 >Software Developer</h2>
     <p>
       I can help you build a product , feature or website Look through some of
       my work and experience! If you like what you see and have a project you
@@ -59,6 +71,8 @@
       </ul>
     </div>
     <hr class="line" />
+    <div class="arrow-icons">
+      <span class="arrow1">&#8595; Work</span>
     <ul class="icons">
       <li>
         <img src="icons/gitHub.png" alt="github">
@@ -76,17 +90,18 @@
         <img src="icons/medium.png" alt="medium">
       </li>
     </ul>
-    <div><span>&#8595; Work</span></div>
+    <span class="arrow1 arrow-m">&#8595; Work</span>
+  </div>
   </section>
-
   <section class="header">
-    <h2 class="recent">MY RECENT WORK</h2>
-    <hr />
+    <h2 class="recent">MY RECENT WORK</h2><h2 class="recent1">My recent work</h2>
+  <hr class="line1"/>
     <ul class="lang-sec">
-      <li>
-        <div>
+      <li class="card-sec">
+        <div class="placeholder1"> 
           <img class="image1" src="./placeholder.png" alt="image placeholder" />
         </div>
+        <div class="card1">
         <h2 class="post">Multi-Post Stories</h2>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
@@ -100,11 +115,13 @@
           <li class="ruby">Ruby</li>
         </ul>
         <button class="button" type="button">See Project</button>
+      </div>
       </li>
-      <li>
-        <div>
+          <li class="card-sec reverse-row">
+        <div class="placeholder1">
           <img class="image1" src="./placeholder.png" alt="image placeholder" />
         </div>
+        <div class="card1">
         <h2 class="post">Multi-Post Stories</h2>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
@@ -118,12 +135,14 @@
           <li class="ruby">Ruby</li>
         </ul>
         <button class="button" type="button">See Project</button>
+      </div>
       </li>
-      <li>
-        <div>
+      <li class="card-sec">
+        <div class="placeholder1">
           <img class="image1" src="./placeholder.png" alt="image placeholder" />
         </div>
-        <h2 class="post">Multi-Post Stories</h2>
+        <div class="card1">
+          <h2 class="post">Multi-Post Stories</h2>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
           sign-ups required. has been the industry's standard dummy text ever
@@ -136,11 +155,14 @@
           <li class="ruby">Ruby</li>
         </ul>
         <button class="button" type="button">See Project</button>
+      </div>
       </li>
-      <li>
-        <div>
+    
+      <li class="reverse-row card-sec">
+        <div class="placeholder1">
           <img class="image1" src="./placeholder.png" alt="image placeholder" />
         </div>
+        <div class="card1">
         <h2 class="post">Multi-Post Stories</h2>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
@@ -154,27 +176,37 @@
           <li class="ruby">Ruby</li>
         </ul>
         <button class="button" type="button">See Project</button>
+      </div>
       </li>
     </ul>
   </section>
   <section class="footer">
     <div class=footer-text>
       <h2 class="contact">CONTACT US</h2>
-      <p class="contact-text">&nbsp;&nbsp;&nbsp;&nbsp;If you have an application you are interested in developing, a feature
+      <h2 class="contact1">Let’s chat!</h2>
+      <p class="contact-text">&nbsp;&nbsp;&nbsp;If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
     </div>
       <form action="https://formspree.io/f/xeqnejgd" method="post" class="conct-form">
+        <div class="mobile-v">
         <input type="text" name="name" id="username" placeholder="Text Input" maxlength="30" required /> <br>
         <input type="email" name="email" id="useremail" placeholder="jeremy@gmail.com" required /><br>
-        <textarea name="message" id="usermessage" placeholder="Enter text here" maxlength="500" cols="30" rows="10" required></textarea>
+        <textarea name="message" class="usermessage" placeholder="Enter text here" maxlength="500" cols="30" rows="10" required></textarea>
         <button class="button" type="submit">See Project</button>
-      </form>
+        </div>
+        <div class="input-media-q">
+        <input type="text" class="height width" name="name" placeholder="Full name" maxlength="30" required /> <br>
+        <input class="width height" type="email" name="email" placeholder="Email address" required /><br>
+        <textarea name="message" class="usermessage width" placeholder="Write your message here" maxlength="500" cols="100" rows="5" required></textarea>
+        <button class="button" type="submit">Send</button>
+        </div>
+            </form>
     
-
   </section>
   <hr class="line1" />
+  <div class="bottom-icons">
   <ul class="icons">
     <li>
       <img src="icons/gitHub.png" alt="github">
@@ -195,7 +227,7 @@
   <div class="mail-to">
     nicomutale@gmail.com
   </div>
-
+  </div>
 </body>
 
 </html>
