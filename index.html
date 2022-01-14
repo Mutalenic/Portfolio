@@ -21,7 +21,15 @@
   <header class="nav">
     <a class="logo" href="#">Nicholas</a>
     <nav>
+      <div class="nav-buttons">
+      <button type="button">Portfolio</button>
+      <button type="button">Contact</button>
+      <button type="button">About</button>
+       <i class="far fa-envelope"></i>
+      </div>  
+      <div class="bars">     
       <i class="fas fa-bars bars"></i>
+      </div>
     </nav>
   </header>
   <section class="headers">
@@ -78,17 +86,19 @@
         <img src="icons/medium.png" alt="medium">
       </li>
     </ul>
-    <span id="arrow2">&#8595; Work</span></div>
+    <span id="arrow2">&#8595; Work</span>
+  </div>
   </section>
 
   <section class="header">
-    <h2 class="recent">MY RECENT WORK</h2>
-    <hr />
+    <h2 class="recent">MY RECENT WORK</h2><h2 class="recent1">My recent work</h2>
+  <hr class="line1"/>
     <ul class="lang-sec">
-      <li>
-        <div>
+      <li class="card-sec">
+        <div class="placeholder1"> 
           <img class="image1" src="./placeholder.png" alt="image placeholder" />
         </div>
+        <div class="card1">
         <h2 class="post">Multi-Post Stories</h2>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
@@ -102,11 +112,13 @@
           <li class="ruby">Ruby</li>
         </ul>
         <button class="button" type="button">See Project</button>
+      </div>
       </li>
-      <li>
-        <div>
+          <li class="card-sec reverse-row">
+        <div class="placeholder1">
           <img class="image1" src="./placeholder.png" alt="image placeholder" />
         </div>
+        <div class="card1">
         <h2 class="post">Multi-Post Stories</h2>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
@@ -120,12 +132,14 @@
           <li class="ruby">Ruby</li>
         </ul>
         <button class="button" type="button">See Project</button>
+      </div>
       </li>
-      <li>
-        <div>
+      <li class="card-sec">
+        <div class="placeholder1">
           <img class="image1" src="./placeholder.png" alt="image placeholder" />
         </div>
-        <h2 class="post">Multi-Post Stories</h2>
+        <div class="card1">
+          <h2 class="post">Multi-Post Stories</h2>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
           sign-ups required. has been the industry's standard dummy text ever
@@ -138,11 +152,14 @@
           <li class="ruby">Ruby</li>
         </ul>
         <button class="button" type="button">See Project</button>
+      </div>
       </li>
-      <li>
-        <div>
+    
+      <li class="reverse-row card-sec">
+        <div class="placeholder1">
           <img class="image1" src="./placeholder.png" alt="image placeholder" />
         </div>
+        <div class="card1">
         <h2 class="post">Multi-Post Stories</h2>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
@@ -156,27 +173,37 @@
           <li class="ruby">Ruby</li>
         </ul>
         <button class="button" type="button">See Project</button>
+      </div>
       </li>
     </ul>
   </section>
   <section class="footer">
     <div class=footer-text>
-      <h2 class="contact">CONTACT US</h2>
-      <p class="contact-text">&nbsp;&nbsp;&nbsp;&nbsp;If you have an application you are interested in developing, a feature
+      <h2 class="contact">CONTACT US</h2><h2 class="contact1">Let’s chat!</h2>
+      <p class="contact-text">&nbsp;&nbsp;&nbsp;If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
     </div>
       <form action="https://formspree.io/f/xeqnejgd" method="post" class="conct-form">
+        <div class="mobile-v">
         <input type="text" name="name" id="username" placeholder="Text Input" maxlength="30" required /> <br>
         <input type="email" name="email" id="useremail" placeholder="jeremy@gmail.com" required /><br>
         <textarea name="message" id="usermessage" placeholder="Enter text here" maxlength="500" cols="30" rows="10" required></textarea>
         <button class="button" type="submit">See Project</button>
-      </form>
+        </div>
+        <div class="input-media-q">
+        <input type="text" name="name" id="username" placeholder="Full name" maxlength="30" required /> <br>
+        <input type="email" name="email" id="useremail" placeholder="Email address" required /><br>
+        <textarea name="message" id="usermessage" placeholder="Write your message here" maxlength="500" cols="100" rows="5" required></textarea>
+        <button class="button1" type="submit">Send</button>
+        </div>
+            </form>
     
 
   </section>
   <hr class="line1" />
+  <div class="bottom-icons">
   <ul class="icons">
     <li>
       <img src="icons/gitHub.png" alt="github">
@@ -196,6 +223,7 @@
   </ul>
   <div class="mail-to">
     nicomutale@gmail.com
+  </div>
   </div>
 
 </body>
