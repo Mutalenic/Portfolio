@@ -22,10 +22,12 @@
     <header class="nav">
     <a class="logo" href="#">Nicholas</a>
     <nav class="nav-buttons">
-      <button type="button">Portfolio</button>
-      <button type="button">Contact</button>
-      <button type="button">About</button>
-       <i class="far fa-envelope"></i>
+      <ul class="nav-li">
+      <li><a>Portfolio</a></li>
+      <li><a>Contact</a></li>
+      <li><a>About</a></li>
+      <i class="far fa-envelope"></i>
+       </ul>
       </nav>
       <div class="bars">     
       <i class="fas fa-bars bars"></i>
@@ -70,7 +72,7 @@
     </div>
     <hr class="line" />
     <div class="arrow-icons">
-      <span id="arrow1">&#8595; Work</span>
+      <span class="arrow1">&#8595; Work</span>
     <ul class="icons">
       <li>
         <img src="icons/gitHub.png" alt="github">
@@ -88,7 +90,7 @@
         <img src="icons/medium.png" alt="medium">
       </li>
     </ul>
-    <span id="arrow2">&#8595; Work</span>
+    <span class="arrow1 arrow-m">&#8595; Work</span>
   </div>
   </section>
      <!-- Works section -->
@@ -193,14 +195,14 @@
         <div class="mobile-v">
         <input type="text" name="name" id="username" placeholder="Text Input" maxlength="30" required /> <br>
         <input type="email" name="email" id="useremail" placeholder="jeremy@gmail.com" required /><br>
-        <textarea name="message" id="usermessage" placeholder="Enter text here" maxlength="500" cols="30" rows="10" required></textarea>
+        <textarea name="message" class="usermessage" placeholder="Enter text here" maxlength="500" cols="30" rows="10" required></textarea>
         <button class="button" type="submit">See Project</button>
         </div>
         <div class="input-media-q">
-        <input type="text" name="name" id="user1" placeholder="Full name" maxlength="30" required /> <br>
-        <input type="email" name="email" id="user1" placeholder="Email address" required /><br>
-        <textarea name="message" id="usermessage" placeholder="Write your message here" maxlength="500" cols="100" rows="5" required></textarea>
-        <button class="button1" type="submit">Send</button>
+        <input type="text" class="height width" name="name" placeholder="Full name" maxlength="30" required /> <br>
+        <input class="width height" type="email" name="email" placeholder="Email address" required /><br>
+        <textarea name="message" class="usermessage width" placeholder="Write your message here" maxlength="500" cols="100" rows="5" required></textarea>
+        <button class="button" type="submit">Send</button>
         </div>
             </form>
     

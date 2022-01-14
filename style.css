@@ -239,13 +239,15 @@ body {
   display: none;
 }
 
-#arrow2 {
-  color: #a2a3ae;
-  font-size: 20px;
+.arrow1 {
+  display: none;
+  color: #b3bac5;
+  font-size: 19px;
 }
 
-#arrow1 {
-  display: none;
+.arrow-m {
+  display: block;
+  text-align: center;
 }
 
 .button:hover {
@@ -335,7 +337,7 @@ body {
   padding-left: 10px;
 }
 
-#usermessage {
+.usermessage {
   height: 148px;
   width: 327px;
   border-radius: 0;
@@ -387,15 +389,14 @@ body {
   .headers {
     background-image: url(bgimages/twocirclesheader.png);
     background-repeat: no-repeat;
-    background-color: red;
     display: flex;
   }
 
   .nav-buttons {
     background-color: #e5e5e5;
     display: flex;
+    display: block;
     justify-content: flex-end;
-    align-items: center;
     list-style-type: none;
     color: inherit;
     border: none;
@@ -436,6 +437,13 @@ body {
     justify-content: center;
     height: 16px;
     width: 20px;
+  }
+
+  .nav-li {
+    display: flex;
+    gap: 20px;
+    background-color: #191765;
+    padding-right: 5rem;
   }
 
   .headers h1 {
@@ -525,12 +533,12 @@ body {
     padding-bottom: 19px;
   }
 
-  #arrow1 {
-    display: inline-block;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0 400px 0 0;
+  .height {
+    height: 48px;
+  }
+
+  .arrow1 {
+    display: block;
   }
 
   #arrow2 {
@@ -573,7 +581,6 @@ body {
   .card-sec {
     display: flex;
     margin-bottom: 10px;
-    border: 5px solid red;
     padding: 10px 10px 10px 30px;
   }
 
@@ -582,10 +589,9 @@ body {
     margin-right: 20px;
   }
 
-  .placeholder1 {
-    margin-top: 70px;
-    margin-left: 30px;
-    padding: 0 0 0 0;
+  .image1 {
+    width: 684px;
+    height: 448px;
   }
 
   .reverse-row {
@@ -731,8 +737,8 @@ body {
 
   .arrow-icons {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    gap: 20rem;
   }
 
   .button1:hover {
@@ -801,8 +807,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 684px;
-    margin-bottom: 0;
+    margin-top: 88px;
+    margin-bottom: 50px;
   }
 
   .mail-to {
@@ -820,6 +826,14 @@ body {
     width: 221px;
     left: 200px;
     top: 5.5px;
+  }
+
+  .width {
+    width: 684px;
+  }
+
+  .logo {
+    padding-left: 5rem;
   }
 
   .footer-text {
