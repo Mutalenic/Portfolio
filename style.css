@@ -1,25 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 
-body {
-  background-color: #191765;
-}
-
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   list-style: none;
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #191765;
+}
 .logo {
   text-decoration: none;
 }
+
 .recent1 {
   display: none;
 }
+
 .input-media-q {
   display: none;
 }
+
 .envelop {
   display: none;
 }
@@ -27,6 +31,7 @@ body {
 .nav-buttons {
   display: none;
 }
+
 
 .headers {
   background-image: url(./Top-circles.png);
@@ -229,6 +234,7 @@ body {
   letter-spacing: 0.03em;
   margin-top: 24px;
 }
+
 .button1 {
   display: none;
 }
@@ -237,6 +243,7 @@ body {
   color: #a2a3ae;
   font-size: 20px;
 }
+
 #arrow1 {
   display: none;
 }
@@ -269,6 +276,7 @@ body {
   text-align: center;
   width: 327px;
 }
+
 .contact1 {
   display: none;
 }
@@ -384,6 +392,7 @@ body {
     width: aut0;
   }
 }
+
 .nav-buttons {
   background-color: #e5e5e5;
   display: flex;
@@ -398,9 +407,11 @@ body {
   cursor: pointer;
   outline: inherit;
 }
+
 .recent {
   display: none;
 }
+
 .mobile {
   display: none;
 }
@@ -424,7 +435,7 @@ body {
   line-height: 105px;
   text-align: center;
   color: #9391ff;
-  margin: 24px 0px;
+  margin: 24px 0;
   width: 1156px;
   height: 96px;
 }
@@ -432,7 +443,7 @@ body {
 .headers h2 {
   width: 1156px;
   height: 72px;
-  left: 0px;
+  left: 0;
   top: 120px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -441,7 +452,7 @@ body {
   line-height: 47px;
   text-align: center;
   color: #dfe1e6;
-  margin: 24px 0px;
+  margin: 24px 0;
 }
 
 .headers p {
@@ -457,7 +468,7 @@ body {
   height: 155px;
   line-height: 32px;
   color: #b3bac5;
-  margin: 24px 0px;
+  margin: 24px 0;
 }
 
 .line {
@@ -502,8 +513,9 @@ body {
   padding-bottom: 0;
   line-height: 25px;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
 }
+
 #arrow1 {
   display: inline-block;
   display: flex;
@@ -516,7 +528,7 @@ body {
   display: flex;
   justify-content: flex-end;
   display: inline;
-  padding: 0 0px 0px 400px;
+  padding: 0 0 0 400px;
 }
 
 .arrowicons {
@@ -524,6 +536,7 @@ body {
   display: inline-block;
   flex-direction: row;
 }
+
 .icons {
   margin-bottom: 20px;
   margin-top: 28px;
@@ -539,7 +552,6 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  width: 327px;
   width: 444px;
   height: 114px;
   font-family: "Roboto", sans-serif;
@@ -568,6 +580,7 @@ body {
   border: 5px solid red;
   padding: 10px 10px 10px 30px;
 }
+
 .card1 {
   margin-left: 50px;
   margin-right: 20px;
@@ -587,7 +600,7 @@ body {
 .header hr {
   width: 1156px;
   border: 1px solid #646369;
-  }
+}
 
 .cardsection1 {
   display: flex;
@@ -612,13 +625,14 @@ body {
 .lang-sec {
   background-image: url(bgimages/btmimage.png);
   background-repeat: no-repeat;
-   display: flex;
+  display: flex;
   background-position: 0 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
+
 .lang {
   display: flex;
   gap: 10px;
@@ -660,6 +674,7 @@ body {
   font-weight: normal;
   padding-bottom: 19px;
 }
+
 .section1 {
   display: flex;
   flex-direction: column;
@@ -692,7 +707,7 @@ body {
   border-right: none;
 }
 
- .button {
+.button {
   background: #7d73fc;
   width: 107px;
   height: 40px;
@@ -779,7 +794,7 @@ body {
   position: static;
   width: 684px;
   height: 61px;
-  left: 0px;
+  left: 0;
   top: 80px;
   text-align: center;
 }
