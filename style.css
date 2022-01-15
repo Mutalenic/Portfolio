@@ -60,6 +60,21 @@ body {
   letter-spacing: 0.37px;
   color: #7d73fc;
   padding: 100px 24px 148px 41px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .headers h2 {
