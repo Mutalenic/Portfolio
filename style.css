@@ -15,7 +15,7 @@ body {
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .logo {
@@ -121,6 +121,7 @@ html {
   background-color: #191765;
   margin-top: 0;
 }
+
 .menuDropDown {
   position: fixed;
   z-index: 100;
@@ -145,8 +146,9 @@ html {
   background-size: cover;
   backdrop-filter: blur(5px);
   background-image: url(bgimages/shapes\ mobile\ menu.png);
-	transition: left 0.5s ease;
+  transition: left 0.5s ease;
 }
+
 .side-bar.active {
   left: 0;
 }
@@ -154,11 +156,12 @@ html {
 .menuDropDown.active {
   opacity: 0;
 }
+
 .menu-cross.active {
   opacity: 1 !important;
   z-index: 1000;
-	position: fixed;
-	right: 26px;
+  position: fixed;
+  right: 26px;
 }
 
 .side-bar > .nav-li {
@@ -173,6 +176,21 @@ html {
   line-height: 32px;
   content: "/003E";
   color: #191765;
+}
+
+.icons a {
+  color: #fff;
+}
+
+.nav-li > li > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+}
+
+.fa-chevron-right {
+  color: #acb7c3 !important;
 }
 
 .line {
@@ -212,10 +230,6 @@ html {
   display: flex;
   gap: 15px;
   justify-content: center;
-}
-
-.icons a {
-  color: #fff;
 }
 
 .header {
@@ -938,12 +952,15 @@ html {
   0% {
     background-color: rgb(30, 172, 165);
   }
+
   25% {
     background-color: yellow;
   }
+
   50% {
     background-color: blue;
   }
+
   100% {
     background-color: rgb(202, 26, 164);
   }
