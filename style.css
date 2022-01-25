@@ -6,11 +6,16 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
 
 body {
   background-color: #191765;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .logo {
@@ -117,6 +122,73 @@ body {
   margin-top: 0;
 }
 
+.menuDropDown {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.menu-cross {
+  opacity: 0;
+}
+
+.side-bar {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(25, 23, 101, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  background-image: url(bgimages/shapes\ mobile\ menu.png);
+  transition: left 0.5s ease;
+}
+
+.side-bar.active {
+  left: 0;
+}
+
+.menuDropDown.active {
+  opacity: 0;
+}
+
+.menu-cross.active {
+  opacity: 1 !important;
+  z-index: 1000;
+  position: fixed;
+  right: 26px;
+}
+
+.side-bar > .nav-li {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.entity {
+  padding: 24px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  content: "/003E";
+  color: #191765;
+}
+
+.icons a {
+  color: #fff;
+}
+
+.nav-li > li > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
 .line {
   color: #646369;
   height: 1px;
@@ -154,10 +226,6 @@ body {
   display: flex;
   gap: 15px;
   justify-content: center;
-}
-
-.icons a {
-  color: #fff;
 }
 
 .header {
@@ -429,7 +497,11 @@ body {
     display: none;
   }
 
-  .bars {
+  .menuDropDown {
+    display: none;
+  }
+
+  .side-bar {
     display: none;
   }
 
@@ -873,8 +945,19 @@ body {
 }
 
 @keyframes card-animation {
-  0% { background-color: rgb(30, 172, 165); }
-  25% { background-color: yellow; }
-  50% { background-color: blue; }
-  100% { background-color: rgb(202, 26, 164); }
+  0% {
+    background-color: rgb(30, 172, 165);
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: rgb(202, 26, 164);
+  }
 }

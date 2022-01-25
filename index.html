@@ -13,6 +13,15 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C5WP7ECVR6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C5WP7ECVR6');
+</script>
     <script
       src="https://kit.fontawesome.com/6dc26eb6e2.js"
       crossorigin="anonymous"
@@ -30,19 +39,36 @@
       <a class="logo" href="#">Nicholas</a>
       <nav class="nav-buttons">
         <ul class="nav-li">
-          <li><a>Portfolio</a></li>
-          <li><a>Contact</a></li>
-          <li><a>About</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#About">About</a></li>
           <li>
             <i class="far fa-envelope"></i>
           </li>
         </ul>
       </nav>
-      <div class="bars">
+      <nav class="side-bar">
+        <ul class="nav-li">
+          <li class="entity">
+            <a href="#Portfolio"
+              >Portfolio<img src="bgimages/chevron.png" class="chevron" alt="chevron"></a>
+          </li>
+          <li class="entity">
+            <a href="#Contact"
+              >Contact<img src="bgimages/chevron.png" class="chevron" alt="chevron"></a>
+          </li>
+          <li class="entity">
+            <a href="#About"
+              >About<img src="bgimages/chevron.png" class="chevron" alt="chevron"></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menuDropDown">
         <i class="fas fa-bars bars"></i>
       </div>
+      <div class="menu-cross"><i class="fas fa-times hidecross"></i></div>
     </header>
-    <section class="headers">
+    <section class="headers" id="About">
       <h1>Nicholas Mutale</h1>
       <h2>Software Developer</h2>
       <p>
@@ -99,7 +125,7 @@
         <div class="arrow1 arrow-m">&#8595; Work</div>
       </div>
     </section>
-    <section class="header">
+    <section class="header" id="Portfolio">
       <h2 class="recent">MY RECENT WORK</h2>
       <h2 class="recent1">My recent work</h2>
       <hr class="line1" />
@@ -207,7 +233,7 @@
         </li>
       </ul>
     </section>
-    <section class="footer">
+    <section class="footer" id="Contact">
       <div class="footer-text">
         <h2 class="contact">CONTACT US</h2>
         <h2 class="contact1">Let’s chat!</h2>
@@ -301,5 +327,7 @@
       </ul>
       <div class="mail-to">nicomutale@gmail.com</div>
     </div>
+
+    <script src="./JS/main.js"></script>
   </body>
 </html>
