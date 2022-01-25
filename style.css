@@ -141,6 +141,7 @@ body {
   background-size: cover;
   backdrop-filter: blur(5px);
   background-image: url(bgimages/shapes\ mobile\ menu.png);
+	transition: left 0.5s ease;
 }
 .side-bar.active {
   left: 0;
