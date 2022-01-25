@@ -153,6 +153,8 @@ body {
 .menu-cross.active {
   opacity: 1 !important;
   z-index: 1000;
+	position: fixed;
+	right: 26px;
 }
 
 .side-bar > .nav-li {
