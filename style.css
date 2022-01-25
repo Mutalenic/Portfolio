@@ -14,6 +14,10 @@ body {
   background-color: #191765;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .logo {
   text-decoration: none;
 }
