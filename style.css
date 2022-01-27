@@ -961,3 +961,35 @@ html {
     background-color: rgb(202, 26, 164);
   }
 }
+
+.pop-up--overlay {
+	display: none;
+}
+
+.pop-up--overlay.active {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: #191765;
+}
+
+.pop-up-box {
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+.pop-up-header {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.close-btn {
+	font-size: 40px;
+	color: #3a3837;
+}
