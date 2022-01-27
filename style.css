@@ -676,10 +676,12 @@ html {
     margin-right: 20px;
   }
 
-  .image1 {
+  /* .image1 {
     width: 684px;
     height: 448px;
-  }
+  } */
+
+
 
   .reverse-row {
     flex-direction: row-reverse;
@@ -975,7 +977,8 @@ html {
 	width: 100vw;
   right: 0px;
   bottom: 0px;
-  background: rgba(255, 255, 255, 0.16);
+  /* background: rgba(255, 255, 255, 0.16); */
+  background-color: #2a2b33;
   border: 1px solid #FFFFFF;
   box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
   overflow: auto;
@@ -986,8 +989,54 @@ html {
 	margin: 20px auto;
 }
 
+.projectTitle {
+  position: static;
+width: 1056px;
+height: 48px;
+left: 0px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 32px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+}
+
+.popImage {
+position: absolute;
+width: 1108px;
+height: 505px;
+left: calc(50% - 1108px/2);
+top: 112px;
+}
+
 .popText {
-  
+  /* position: static; */
+display: flex;
+flex-direction: row;
+width: 684px;
+height: 236px;
+left: 0px;
+top: 0px;
+padding: 500px 26px 100px 26px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+align-items: center;
+color: #FFFFFF;
+order: 0;
+margin: 24px 0px;
 }
 
 .pop-up-header {
@@ -1001,4 +1050,31 @@ html {
 .close-btn {
 	font-size: 40px;
 	color: #3a3837;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  right: 0px;
+  border-radius: 8px;
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+#seeProject {
+  background: #7d73fc;
+    width: 94px;
+    height: 48px;
+    padding: 12px 12px;
+    color: #edecff;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
 }

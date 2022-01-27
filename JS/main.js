@@ -111,7 +111,7 @@ createCard(cardsinfo)
 //get open modal button
 //get close btn
 const modal = document.querySelector('.pop-up--overlay');
-const openbtn = document.getElementById('seeProject');
+const openbtn = document.querySelector('#seeProject');
 const closebtn = document.querySelector('.close-btn');
 //listen for click
 
