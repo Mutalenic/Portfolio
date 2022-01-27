@@ -106,3 +106,26 @@ function createCard(cardData){
 } 
 
 createCard(cardsinfo)
+
+//modal window
+//get open modal button
+//get close btn
+const modal = document.querySelector('.pop-up--overlay');
+const openbtn = document.getElementById('seeProject');
+const closebtn = document.querySelector('.close-btn');
+//listen for click
+
+//display popup
+function openModal(){
+  modal.style.display = 'block';
+}
+//close popup
+function closeModal(){
+  modal.style.display = 'none';
+}
+
+openbtn.addEventListener('click', openModal);
+closebtn.addEventListener('click', closeModal);
+
+
+
