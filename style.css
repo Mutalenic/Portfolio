@@ -1049,7 +1049,7 @@ margin: 24px 0px;
 
 .close-btn {
 	font-size: 40px;
-	color: #3a3837;
+	color: #67798E;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1061,8 +1061,9 @@ margin: 24px 0px;
   flex: none;
   flex-grow: 0;
   margin: 0px 12px;
+  cursor: pointer;
 }
-#seeProject {
+.seeProject {
   background: #7d73fc;
     width: 94px;
     height: 48px;
