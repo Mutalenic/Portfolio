@@ -12,7 +12,11 @@
 
 body {
   background-color: #191765;
-}
+    }
+
+  body.active {
+    overflow: hidden;
+  }
 
 html {
   scroll-behavior: smooth;

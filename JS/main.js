@@ -2,7 +2,7 @@ const menuActive = document.querySelector('.menuDropDown');
 const menuCross = document.querySelector('.menu-cross');
 const sideBar = document.querySelector('.side-bar');
 const links = document.querySelectorAll('.entity');
-const boxDiv = document.querySelector('.pop-up--overlay')
+const popUp = document.querySelector('.pop-up--overlay')
 
 menuActive.addEventListener('click', () => {
   sideBar.classList.add('active');
@@ -80,7 +80,7 @@ cardsinfo = [
 ]
 
 function popup() {
-  boxDiv.classList.add('active')
+  popUp.classList.add('active')
 }
 
 function createCard(cardData){
@@ -112,6 +112,8 @@ function createCard(cardData){
 } 
 
 
+
+
 createCard(cardsinfo)
 
 const modal = document.querySelector('.pop-up--overlay');
@@ -122,18 +124,19 @@ const closebtn = document.querySelector('.close-btn');
 
 //display popup
 function openModal(){
-  boxDiv.classList.add('active')
-}
+  popUp.classList.add('active')
+  }
 
 //close popup
 function closeModal(){
-  boxDiv.classList.remove('active')
+  popUp.classList.remove('active')
 }
 
 openbtn.forEach((btn) => {
   btn.addEventListener('click', openModal);
 })
 closebtn.addEventListener('click', closeModal);
+
 
 
 
