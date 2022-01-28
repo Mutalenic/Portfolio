@@ -4,6 +4,7 @@
 
 This portfolio shows what I am capable of doing as a software developer.With this I can be a  great asset to software companies.
 
+![image](https://user-images.githubusercontent.com/19844175/151563447-0f246e41-6a2d-4934-8b5b-aa007dba8a81.png)
 
 ## Built With
 
@@ -43,6 +44,9 @@ To get a local copy up and running follow these simple example steps.
 ## Show your support
 
 Give a ⭐️ if you like this project
+<<<<<<< HEAD
 
 📝 License
 This project is MIT licensed.
+=======
+>>>>>>> 6d8893ed0718edf1005296493ca80c63a3dfacad

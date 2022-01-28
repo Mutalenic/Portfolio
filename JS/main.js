@@ -125,7 +125,12 @@ const closebtn = document.querySelector('.close-btn');
 //display popup
 function openModal(){
   popUp.classList.add('active')
+  if(popUp.classList.contains('active')){
+    document.querySelector('body').style.overflow = 'hidden'
   }
+  }
+
+
 
 //close popup
 function closeModal(){
