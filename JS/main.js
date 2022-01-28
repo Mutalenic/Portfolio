@@ -118,7 +118,6 @@ createCard(cardsinfo)
 
 const modal = document.querySelector('.pop-up--overlay');
 const openbtn = document.querySelectorAll('.button');
-console.log(openbtn);
 const closebtn = document.querySelector('.close-btn');
 //listen for click
 
@@ -127,14 +126,15 @@ function openModal(){
   popUp.classList.add('active')
   if(popUp.classList.contains('active')){
     document.querySelector('body').style.overflow = 'hidden'
-  }
-  }
+  }  
+ }
 
 
 
 //close popup
 function closeModal(){
   popUp.classList.remove('active')
+  document.querySelector('body').style.overflow = 'visible'
 }
 
 openbtn.forEach((btn) => {
