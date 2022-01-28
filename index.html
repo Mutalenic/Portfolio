@@ -14,14 +14,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C5WP7ECVR6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-C5WP7ECVR6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-C5WP7ECVR6');
-</script>
+      gtag("config", "G-C5WP7ECVR6");
+    </script>
     <script
       src="https://kit.fontawesome.com/6dc26eb6e2.js"
       crossorigin="anonymous"
@@ -51,15 +56,27 @@
         <ul class="nav-li">
           <li class="entity">
             <a href="#Portfolio"
-              >Portfolio<img src="bgimages/chevron.png" class="chevron" alt="chevron"></a>
+              >Portfolio<img
+                src="bgimages/chevron.png"
+                class="chevron"
+                alt="chevron"
+            /></a>
           </li>
           <li class="entity">
             <a href="#Contact"
-              >Contact<img src="bgimages/chevron.png" class="chevron" alt="chevron"></a>
+              >Contact<img
+                src="bgimages/chevron.png"
+                class="chevron"
+                alt="chevron"
+            /></a>
           </li>
           <li class="entity">
             <a href="#About"
-              >About<img src="bgimages/chevron.png" class="chevron" alt="chevron"></a>
+              >About<img
+                src="bgimages/chevron.png"
+                class="chevron"
+                alt="chevron"
+            /></a>
           </li>
         </ul>
       </nav>
@@ -129,109 +146,67 @@
       <h2 class="recent">MY RECENT WORK</h2>
       <h2 class="recent1">My recent work</h2>
       <hr class="line1" />
-      <ul class="lang-sec">
-        <li class="card-sec">
-          <div class="placeholder1">
-            <img
-              class="image1"
-              src="./placeholder.png"
-              alt="image placeholder"
-            />
-          </div>
-          <div class="card1">
-            <h2 class="post">Multi-Post Stories</h2>
-            <p class="text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <ul class="lang">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="ruby">Ruby</li>
-            </ul>
-            <button class="button" type="button">See Project</button>
-          </div>
-        </li>
-        <li class="card-sec reverse-row">
-          <div class="placeholder1">
-            <img
-              class="image1"
-              src="./placeholder.png"
-              alt="image placeholder"
-            />
-          </div>
-          <div class="card1">
-            <h2 class="post">Multi-Post Stories</h2>
-            <p class="text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <ul class="lang">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="ruby">Ruby</li>
-            </ul>
-            <button class="button" type="button">See Project</button>
-          </div>
-        </li>
-        <li class="card-sec">
-          <div class="placeholder1">
-            <img
-              class="image1"
-              src="./placeholder.png"
-              alt="image placeholder"
-            />
-          </div>
-          <div class="card1">
-            <h2 class="post">Multi-Post Stories</h2>
-            <p class="text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <ul class="lang">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="ruby">Ruby</li>
-            </ul>
-            <button class="button" type="button">See Project</button>
-          </div>
-        </li>
+      <ul class="lang-sec"></ul>
 
-        <li class="reverse-row card-sec">
+      <!-- POPUP DATA -->
+      <div class="pop-up--overlay" id="hidden">
+        <div class="pop-up-box">
+          <div class="pop-up-header">
+
+            <div>
+
+              <h2 class="projectTitle">Multi-post story</h2>
+            </div>
+            <div class="close-btn">&times;</div>
+          </div>
           <div class="placeholder1">
             <img
-              class="image1"
-              src="./placeholder.png"
+              class="popImage"
+              src="bgimages/Snapshoot.png"
               alt="image placeholder"
             />
           </div>
-          <div class="card1">
-            <h2 class="post">Multi-Post Stories</h2>
-            <p class="text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
+          <div >
+            <p class="popText">
+              Lorem Ipsum is simply dummy text of the printing and typesettingry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s,
+              when an unknown Lorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown printer
+              took a galley of type and scramble.
             </p>
-            <ul class="lang">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="ruby">Ruby</li>
-            </ul>
-            <button class="button" type="button">See Project</button>
           </div>
-        </li>
-      </ul>
+          <ul class="plang">
+            <li class="pop-li">html</li>
+              <li class="pop-li">css</li>
+              <li class="pop-li">Ruby on rails</li> 
+                <li class="pop-li unique">Github</li>
+          </ul>
+
+          <ul class="plangmobile">
+            <li class="pop-li">html</li>
+              <li class="pop-li">Ruby on rails</li> 
+                <li class="pop-li unique">css</li>
+          </ul>
+          <div class="buttonsPop">
+            <button type="button" class="seeProject1">
+              see project<img
+                src="icons/live.png"
+                alt="live icon"
+                class="liveIcon"
+              />
+            </button>
+            <button type="button" class="seeProject1">
+              see source
+              <img
+                src="icons/smallGitHub.png"
+                alt="github link"
+                class="liveIcon"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="footer" id="Contact">
       <div class="footer-text">
@@ -274,7 +249,9 @@
             rows="10"
             required
           ></textarea>
-          <button class="button" type="submit">See Project</button>
+          <button class="button" type="submit" id="seeProject">
+            See Project
+          </button>
         </div>
         <div class="input-media-q">
           <input
