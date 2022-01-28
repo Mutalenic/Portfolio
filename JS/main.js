@@ -1,7 +1,8 @@
 const menuActive = document.querySelector('.menuDropDown');
 const menuCross = document.querySelector('.menu-cross');
 const sideBar = document.querySelector('.side-bar');
-const links = document.querySelectorAll('.entity')
+const links = document.querySelectorAll('.entity');
+const boxDiv = document.querySelector('.pop-up--overlay')
 
 menuActive.addEventListener('click', () => {
   sideBar.classList.add('active');
@@ -78,6 +79,10 @@ cardsinfo = [
 
 ]
 
+function popup() {
+  boxDiv.classList.add('active')
+}
+
 function createCard(cardData){
   cardcontainer.innerHTML = ` `;
   cardData.forEach((card, pos) => {
@@ -98,33 +103,36 @@ function createCard(cardData){
             <ul class="lang">
               ${card.cardLang}  
             </ul>
-            <button class="button pop-${pos}" type="button">See Project</button>
+            <button class="button pop-${pos}"  type="button">See Project</button>
           </div>
         </li>`
         cardcontainer.insertAdjacentHTML('afterbegin', cardMaster);
   })
+ 
 } 
+
 
 createCard(cardsinfo)
 
-//modal window
-//get open modal button
-//get close btn
 const modal = document.querySelector('.pop-up--overlay');
-const openbtn = document.querySelector('.seeProject');
+const openbtn = document.querySelectorAll('.button');
+console.log(openbtn);
 const closebtn = document.querySelector('.close-btn');
 //listen for click
 
 //display popup
 function openModal(){
-  modal.style.display = 'block';
-}
-//close popup
-function closeModal(){
-  modal.style.display = 'none';
+  boxDiv.classList.add('active')
 }
 
-openbtn.addEventListener('click', openModal);
+//close popup
+function closeModal(){
+  boxDiv.classList.remove('active')
+}
+
+openbtn.forEach((btn) => {
+  btn.addEventListener('click', openModal);
+})
 closebtn.addEventListener('click', closeModal);
 
 
