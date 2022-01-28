@@ -44,9 +44,3 @@ To get a local copy up and running follow these simple example steps.
 ## Show your support
 
 Give a ⭐️ if you like this project
-<<<<<<< HEAD
-
-📝 License
-This project is MIT licensed.
-=======
->>>>>>> 6d8893ed0718edf1005296493ca80c63a3dfacad
