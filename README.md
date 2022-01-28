@@ -4,6 +4,8 @@
 
 This portfolio shows what I am capable of doing as a software developer.With this I can be a  great asset to software companies.
 
+![image](https://user-images.githubusercontent.com/19844175/151563447-0f246e41-6a2d-4934-8b5b-aa007dba8a81.png)
+
 ## Built With
 
 - HTML
