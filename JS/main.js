@@ -142,3 +142,17 @@ formEmail.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+formEmail.addEventListener('input', () => {
+  const formStorageData = {
+    name: document.querySelector('.mobilename').value,
+    email: document.querySelector('.useremail').value,
+    message: document.querySelector('.usermessage').value,
+  };
+  localStorage.setItem('conct-form', JSON.stringify(formStorageData));
+});
+
+const formObject = JSON.parse(localStorage.getItem('conct-form'));
+document.querySelector('.mobilename').value = formObject.name;
+document.querySelector('.useremail').value = formObject.email;
+document.querySelector('.usermessage').value = formObject.message;
