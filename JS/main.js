@@ -31,7 +31,7 @@ const languages = (string1,string2,string3,string4)=>{
   <li class="ruby">${string4}</li>`
 }
 
-cardsinfo = [
+const cardsinfo = [
   {
     reverseCard:'kwacha',
     cardName:'Multi-Post Stories',
@@ -79,10 +79,6 @@ cardsinfo = [
 
 ]
 
-function popup() {
-  popUp.classList.add('active')
-}
-
 function createCard(cardData){
   cardcontainer.innerHTML = ` `;
   cardData.forEach((card, pos) => {
@@ -116,7 +112,6 @@ function createCard(cardData){
 
 createCard(cardsinfo)
 
-const modal = document.querySelector('.pop-up--overlay');
 const openbtn = document.querySelectorAll('.button');
 const closebtn = document.querySelector('.close-btn');
 //listen for click
