@@ -361,6 +361,24 @@ html {
   margin-top: 24px;
 }
 
+.buttonForm {
+  background: #7d73fc;
+  width: 94px;
+  height: 48px;
+  padding: 12px 12px;
+  color: #edecff;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  font-size: 12px;
+  margin-bottom: 40px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 24px;
+
+}
+
 .button1 {
   display: none;
 }
@@ -1048,6 +1066,26 @@ html {
     width: 221px;
     left: 200px;
     top: 5.5px;
+  }
+
+  .buttonForm {
+    background: #7d73fc;
+    width: 107px;
+    height: 40px;
+    color: #edecff;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 40px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+    position: static;
+    left: 12px;
+    top: 12px;
   }
 
   .width {

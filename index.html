@@ -219,36 +219,42 @@
         </p>
       </div>
       <form
+        id = "formdata"
         action="https://formspree.io/f/xeqnejgd"
-        method="post"
+        method="POST"
         class="conct-form"
       >
           <input
             type="text"
             class="height width"
-            name="name"
+            name="Fullname"
             placeholder="Full name"
             maxlength="30"
             required
+            id="#username"
           />
-          <br />
+          <br>
           <input
-            class="width height"
             type="email"
+            class="width height"
             name="email"
             placeholder="Email address"
+            maxlength="30"
             required
-          /><br />
+            id="#useremail"
+          />
+    </br>
           <textarea
+            id= "messageForm"
             name="message"
             class="usermessage width"
             placeholder="Write your message here"
             maxlength="500"
-            cols="100"
             rows="5"
             required
           ></textarea>
-          <button class="button" type="submit">Send</button>
+          
+          <button class="buttonForm" type="submit">Send</button>
       </form>
     </section>
     <hr class="line1" />
