@@ -460,7 +460,7 @@ html {
   width: 327px;
 } 
 
-#username {
+.mobilename {
   width: 327px;
   height: 48px;
   padding-left: 10px;
@@ -476,9 +476,13 @@ html {
   color: #81818c;
 }
 
-#useremail {
+.mobileemail {
   width: 327px;
   left: 16px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
   right: 16px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -679,9 +683,9 @@ html {
     display: none;
   }
 
-  .mobile-v {
+  /* .mobile-v {
     display: none;
-  }
+  } */
 
   .icons {
     margin-left: 70px;
