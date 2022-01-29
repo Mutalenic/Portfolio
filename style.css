@@ -361,6 +361,33 @@ html {
   margin-top: 24px;
 }
 
+.buttonForm {
+  background: #7d73fc;
+  width: 94px;
+  height: 48px;
+  padding: 12px 12px;
+  color: #edecff;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  font-size: 12px;
+  margin-bottom: 40px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 24px;
+}
+
+.errorEmail {
+  color: red;
+  font-family: 'roboto', sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
 .button1 {
   display: none;
 }
@@ -389,7 +416,7 @@ html {
   background: #2a2b33;
 }
 
-.footer {
+.contactInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -432,7 +459,7 @@ html {
   width: 327px;
 }
 
-#username {
+.mobilename {
   width: 327px;
   height: 48px;
   padding-left: 10px;
@@ -448,9 +475,10 @@ html {
   color: #81818c;
 }
 
-#useremail {
+.mobileemail {
   width: 327px;
   left: 16px;
+  height: 48px;
   right: 16px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -502,7 +530,7 @@ html {
   color: #ebebff;
 }
 
-.footer-text {
+.contactInfo-text {
   display: flex;
   flex-direction: column;
 }
@@ -595,6 +623,13 @@ html {
   padding-right: 47%;
 }
 
+.bottom-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 992px) {
   body {
     margin: 0;
@@ -644,9 +679,9 @@ html {
     display: none;
   }
 
-  .mobile-v {
+  /* .mobile-v {
     display: none;
-  }
+  } */
 
   .icons {
     margin-left: 70px;
@@ -976,7 +1011,7 @@ html {
     background: #2a2b33;
   }
 
-  .footer {
+  .contactInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1050,6 +1085,26 @@ html {
     top: 5.5px;
   }
 
+  .buttonForm {
+    background: #7d73fc;
+    width: 107px;
+    height: 40px;
+    color: #edecff;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 40px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+    position: static;
+    left: 12px;
+    top: 12px;
+  }
+
   .width {
     width: 684px;
   }
@@ -1058,7 +1113,7 @@ html {
     padding-left: 5rem;
   }
 
-  .footer-text {
+  .contactInfo-text {
     display: flex;
     flex-direction: column;
   }

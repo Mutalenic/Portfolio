@@ -208,79 +208,53 @@
         </div>
       </div>
     </section>
-    <section class="footer" id="Contact">
-      <div class="footer-text">
+    <section class="contactInfo" id="Contact">
+      <div class="contactInfo-text">
         <h2 class="contact">CONTACT US</h2>
         <h2 class="contact1">Let’s chat!</h2>
         <p class="contact-text">
-          &nbsp;&nbsp;&nbsp;If you have an application you are interested in
+          &nbsp;&nbsp;If you have an application you are interested in
           developing, a feature that you need built or a project that needs
           coding. I’d love to help with it
         </p>
       </div>
       <form
+        id = "formdata"
         action="https://formspree.io/f/xeqnejgd"
-        method="post"
+        method="POST"
         class="conct-form"
       >
-        <div class="mobile-v">
           <input
             type="text"
-            name="name"
-            id="username"
-            placeholder="Text Input"
-            maxlength="30"
-            required
-          />
-          <br />
-          <input
-            type="email"
-            name="email"
-            id="useremail"
-            placeholder="jeremy@gmail.com"
-            required
-          /><br />
-          <textarea
-            name="message"
-            class="usermessage"
-            placeholder="Enter text here"
-            maxlength="500"
-            cols="30"
-            rows="10"
-            required
-          ></textarea>
-          <button class="button" type="submit" id="seeProject">
-            See Project
-          </button>
-        </div>
-        <div class="input-media-q">
-          <input
-            type="text"
-            class="height width"
-            name="name"
+            class="height width mobilename"
+            name="Fullname"
             placeholder="Full name"
             maxlength="30"
             required
+            id="#username"
           />
-          <br />
+          <br>
           <input
-            class="width height"
             type="email"
+            class="useremail width height mobileemail"
             name="email"
             placeholder="Email address"
+            maxlength="30"
             required
-          /><br />
+          />
+    <br>
           <textarea
+            id= "messageForm"
             name="message"
             class="usermessage width"
             placeholder="Write your message here"
             maxlength="500"
-            cols="100"
             rows="5"
             required
           ></textarea>
-          <button class="button" type="submit">Send</button>
-        </div>
+          <div class="errorEmail">       
+          </div>
+          <button class="buttonForm" type="submit">Send</button>
       </form>
     </section>
     <hr class="line1" />
