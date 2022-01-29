@@ -376,7 +376,6 @@ html {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 24px;
-
 }
 
 .errorEmail {
@@ -458,7 +457,7 @@ html {
   flex-direction: column;
   align-items: center;
   width: 327px;
-} 
+}
 
 .mobilename {
   width: 327px;
@@ -480,9 +479,6 @@ html {
   width: 327px;
   left: 16px;
   height: 48px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
   right: 16px;
   font-family: "Inter", sans-serif;
   font-style: normal;
