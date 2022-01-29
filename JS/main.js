@@ -143,7 +143,6 @@ formEmail.addEventListener('submit', (e) => {
   }
 });
 
-// local storage 
 formEmail.addEventListener('input', () => {
   const formStorageData = {
     name: document.querySelector('.mobilename').value,
