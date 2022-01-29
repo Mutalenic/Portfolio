@@ -142,6 +142,17 @@ openbtn.forEach((btn) => {
 })
 closebtn.addEventListener('click', closeModal);
 
+//email validation
+const formEmail = document.querySelector('.conct-form');
+const userEmailerror = document.querySelector('.errorEmail');
+const userEmail = document.querySelector('.useremail');
 
-
+formEmail.addEventListener('submit', (e) => {
+  const userInput = userEmail.value;
+  if (/[A-Z]/.test(userInput)) {
+    userEmailerror.innerHTML = 'ERROR! Please use lowercase for email address';
+    userEmailerror.classList.add('.errorEmail');
+    e.preventDefault();
+  }
+})
 

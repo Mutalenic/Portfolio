@@ -379,6 +379,16 @@ html {
 
 }
 
+.errorEmail {
+  color: red;
+  font-family: 'roboto', sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
 .button1 {
   display: none;
 }
