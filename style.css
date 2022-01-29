@@ -389,7 +389,7 @@ html {
   background: #2a2b33;
 }
 
-.footer {
+.contactInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -502,7 +502,7 @@ html {
   color: #ebebff;
 }
 
-.footer-text {
+.contactInfo-text {
   display: flex;
   flex-direction: column;
 }
@@ -976,7 +976,7 @@ html {
     background: #2a2b33;
   }
 
-  .footer {
+  .contactInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1058,7 +1058,7 @@ html {
     padding-left: 5rem;
   }
 
-  .footer-text {
+  .contactInfo-text {
     display: flex;
     flex-direction: column;
   }
