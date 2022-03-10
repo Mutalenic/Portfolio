@@ -2,10 +2,15 @@
 
 # Portfolio
 
-This portfolio shows what I am capable of doing as a software developer.With this I can be a  great asset to software companies.
+This portfolio shows what I am capable of doing as a software developer.Demo link: https://mutalenic.github.io/Portfolio/
 
 ![image](https://user-images.githubusercontent.com/19844175/151563447-0f246e41-6a2d-4934-8b5b-aa007dba8a81.png)
-
+![1](https://user-images.githubusercontent.com/19844175/157601254-a03e7811-2d43-42c7-b2c8-05de71006cdb.png)
+![2](https://user-images.githubusercontent.com/19844175/157601286-723c495c-e1f3-415a-a71a-cf40d62ccd11.png)
+![6](https://user-images.githubusercontent.com/19844175/157604728-c3c778e6-39e1-4c12-a280-9656905d8427.png)
+![4](https://user-images.githubusercontent.com/19844175/157601365-6584f615-23cd-44db-bf63-149d4fd0ce5c.png)
+![5](https://user-images.githubusercontent.com/19844175/157604726-cea3e4e8-fbc5-4805-bc2f-f2c1daf8bda9.png)
+![3](https://user-images.githubusercontent.com/19844175/157601338-a2696c99-77ae-4215-b3d6-c561e4497645.png)
 ## Built With
 
 - HTML
@@ -16,9 +21,6 @@ This portfolio shows what I am capable of doing as a software developer.With thi
 - Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
-
-
-Check out it here : https://mutalenic.github.io/Portfolio/
 
 
 ## Authors
