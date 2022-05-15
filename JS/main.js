@@ -3,6 +3,8 @@ const menuCross = document.querySelector('.menu-cross');
 const sideBar = document.querySelector('.side-bar');
 const links = document.querySelectorAll('.entity');
 const popUp = document.querySelector('.pop-up--overlay');
+const circle1 = document.querySelector('.circle1');
+const circle2 = document.querySelector('.circle2');
 
 menuActive.addEventListener('click', () => {
   sideBar.classList.add('active');
@@ -112,6 +114,8 @@ const closebtn = document.querySelector('.close-btn');
 
 // display popup
 function openModal() {
+  circle1.classList.replace('show', 'hide');
+  circle2.classList.replace('show', 'hide');
   popUp.classList.add('active');
   if (popUp.classList.contains('active')) {
     document.querySelector('body').style.overflow = 'hidden';
@@ -120,6 +124,8 @@ function openModal() {
 
 // close popup
 function closeModal() {
+  circle1.classList.replace('hide', 'show');
+  circle2.classList.replace('hide', 'show');
   popUp.classList.remove('active');
   document.querySelector('body').style.overflow = 'visible';
 }
@@ -151,8 +157,3 @@ formEmail.addEventListener('input', () => {
   };
   localStorage.setItem('conct-form', JSON.stringify(formStorageData));
 });
-
-const formObject = JSON.parse(localStorage.getItem('conct-form'));
-document.querySelector('.mobilename').value = formObject.name;
-document.querySelector('.useremail').value = formObject.email;
-document.querySelector('.usermessage').value = formObject.message;

@@ -14,6 +14,11 @@ body {
   background-color: #191765;
 }
 
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -39,10 +44,6 @@ html {
 }
 
 .headers {
-  background-image: url(./Top-circles.png);
-  background-repeat: no-repeat;
-  background-color: #191765;
-  height: 100%;
   padding: 0 40px 40px 40px;
   display: flex;
   flex-direction: column;
@@ -635,12 +636,6 @@ html {
     margin: 0;
   }
 
-  .headers {
-    background-image: url(bgimages/twocirclesheader.png);
-    background-repeat: no-repeat;
-    display: flex;
-  }
-
   .nav-buttons {
     background-color: #e5e5e5;
     display: flex;
@@ -679,10 +674,6 @@ html {
     display: none;
   }
 
-  /* .mobile-v {
-    display: none;
-  } */
-
   .icons {
     margin-left: 70px;
     margin-right: 100px;
@@ -711,7 +702,8 @@ html {
     line-height: 105px;
     text-align: center;
     color: #9391ff;
-    margin: 24px 0;
+    padding-bottom: 13%;
+    padding-top: -11%;
     width: 1156px;
     height: 96px;
   }
@@ -743,7 +735,7 @@ html {
     height: 155px;
     line-height: 32px;
     color: #b3bac5;
-    margin: 24px 0;
+    padding-top: 8%;
   }
 
   .line {
@@ -846,11 +838,6 @@ html {
     margin-right: 20px;
   }
 
-  /* .image1 {
-    width: 684px;
-    height: 448px;
-  } */
-
   .reverse-row {
     flex-direction: row-reverse;
     padding-right: 70px;
@@ -920,7 +907,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    gap: 60%;
     background-color: #191765;
     margin-top: 0;
   }
@@ -1319,30 +1306,41 @@ html {
   .placeholder1 {
     padding-top: 20px;
   }
+
+  .circle1 {
+    width: 184px;
+    height: 184px;
+    background: #edecff;
+    border-radius: 50%;
+    position: absolute;
+    top: 237px;
+    left: 69px;
+    z-index: -1;
+    filter: blur(50px);
+  }
+
+  .circle2 {
+    width: 226px;
+    height: 226px;
+    background: #edecff;
+    border-radius: 50%;
+    position: absolute;
+    top: 546px;
+    right: 116px;
+    z-index: -1;
+    filter: blur(50px);
+  }
 }
 
 .card-sec {
   width: 100%;
   height: 100%;
-  background-color: rgb(202, 26, 164);
   animation-name: card-animation;
-  animation-duration: 10s;
+  animation-duration: 8s;
 }
 
 @keyframes card-animation {
-  0% {
+  5% {
     background-color: rgb(30, 172, 165);
-  }
-
-  25% {
-    background-color: yellow;
-  }
-
-  50% {
-    background-color: blue;
-  }
-
-  100% {
-    background-color: rgb(202, 26, 164);
   }
 }
